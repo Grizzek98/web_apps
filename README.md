@@ -16,14 +16,14 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* Visual Studio Code
+* Python 3.9.7
+    * Django
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
+* [Real Python](https://realpython.com/get-started-with-django-1/)
 * [Web Site Name](http://url.link.goes.here)
 
 # Future Work
