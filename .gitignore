@@ -1,3 +1,4 @@
 untracked_files
 **/__pycache__/
 venv
+**/settings.py
