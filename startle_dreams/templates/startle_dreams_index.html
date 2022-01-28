@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block page_content %}
+<div class="col-md-8 offset-md-2">
+    <h1>Startle Dreams Index</h1>
+    <hr>
+    {% for post in posts %}
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.body | slice:":400" }}</p>
+    <hr>
+    {% endfor %}
+</div>
+{% endblock %}
