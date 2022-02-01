@@ -24,11 +24,11 @@
 
 {Make a list of websites that you found helpful in this project}
 * [Real Python](https://realpython.com/get-started-with-django-1/)
-* [Web Site Name](http://url.link.goes.here)
+* [Learning About Electronics](http://www.learningaboutelectronics.com/Articles/How-to-save-data-from-a-form-to-a-database-table-in-Django.php)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Make the startle_dreams post submission form erase the data in the text and data fields \ 
+after you submit it
+* Add a visual cue after submitting a startle_dreams post so know it actually happened
