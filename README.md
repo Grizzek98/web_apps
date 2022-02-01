@@ -29,6 +29,5 @@
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Make the startle_dreams post submission form erase the data in the text and data fields \ 
-after you submit it
+* Make the startle_dreams post submission form erase the data in the text and data fields after you submit it
 * Add a visual cue after submitting a startle_dreams post so know it actually happened
