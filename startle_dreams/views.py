@@ -19,6 +19,7 @@ def startle_dreams_form(request):
                 body = form.cleaned_data["body"],
             )
             post.save()
+            form = PostForm()
 
     context = {"form": form}
     return render(request, "startle_dreams_form.html", context)
