@@ -10,7 +10,7 @@ To run the server, navigate to the **/web_apps/ directory in CMD or powershell a
 
 DISCLAIMER: This projects actually contains a couple of apps (namely blog and projects) created from a tutorial series (listed under 'Useful Websites'), but the startle_dreams app was my own creation.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/wCgYKGaQ2Ls)
 
 # Web Pages
 
@@ -27,8 +27,6 @@ Note - It should be assumed that 'localhost:8000/' comes before each of the foll
 * 'projects/' --> This is a simple project showcase I created by following the tutorial. This webpage shows the project index.
 
 * 'projects/[n]' --> Each project has a unique number which gets passed into the URL to navigate to it. This is the detailed view of the project.
-
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
 
 # Development Environment
 
