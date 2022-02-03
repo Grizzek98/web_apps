@@ -20,5 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('projects/', include('projects.urls')),
     path('blog/', include('blog.urls')),
-    path('startle_dreams/', include('startle_dreams.urls'))
+    path('startle_dreams/', include('startle_dreams.urls')),
+    # path('', include('startle_dreams.urls'))
 ]
