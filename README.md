@@ -1,16 +1,32 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This project was an attempt to familiarize myself with the basics of Django web development.
 
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
+The projects consists of the standard Django web server with an addition of my own sqlite3 database model, and my own views that create two different html webpages.
 
-{Describe your purpose for writing this software.}
+To be specific, it's a blog in journal format with a new post submission form.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
+To run the server, navigate to the **/web_apps/ directory in CMD or powershell and use the command 'python manage.py runserver'. You can then navigate to localhost:8000/startle_dreams in a browser to access the webpages.
+
+DISCLAIMER: This projects actually contains a couple of apps (namely blog and projects) created from a tutorial series (listed under 'Useful Websites'), but the startle_dreams app was my own creation.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
 # Web Pages
+
+Note - It should be assumed that 'localhost:8000/' comes before each of the following webpages:
+
+* 'startle_dreams/' --> This is main index of my startle dreams blog/journal. From here you can access startle_dreams/form either via the URL or by clicking the 'Post Submission Form' button on the index webpage.
+
+* 'startle_dreams/form/' --> This is the post submission for used to create new posts for the startle dream index page.
+
+* 'blog/' --> This is the blog index I created while following the tutorial. This blog uses Lorem Ipsum sample text. You can navigate to individual blog listing's detailed pages by clicking on the respective blog index titles.
+
+* 'blog/[n]' --> Each blog listing has a unique number which gets passed into the URL to navigate to it. The detail view shows the blog post and a working comment section.
+
+* 'projects/' --> This is a simple project showcase I created by following the tutorial. This webpage shows the project index.
+
+* 'projects/[n]' --> Each project has a unique number which gets passed into the URL to navigate to it. This is the detailed view of the project.
 
 {Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
 
@@ -22,12 +38,9 @@
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Real Python](https://realpython.com/get-started-with-django-1/)
 * [Learning About Electronics](http://www.learningaboutelectronics.com/Articles/How-to-save-data-from-a-form-to-a-database-table-in-Django.php)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Make the startle_dreams post submission form erase the data in the text and data fields after you submit it
-* Add a visual cue after submitting a startle_dreams post so know it actually happened
+* Make the startle_dreams post submission form redirect you to the index upon post submission.
