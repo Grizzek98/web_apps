@@ -1,5 +1,7 @@
 from django import forms
 
+# creates a fillable form on the webpage when created
+
 class PostForm(forms.Form):
     title = forms.DateField(
         widget=forms.DateInput(
